@@ -1,13 +1,135 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    background-color: lightgray;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+table,
+th,
+td {
+    flex: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    font-weight: 500;
+    margin: 8px;
+}
+
+table {
+    border-style: bold;
+    border-color: #002D62;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    font-family: Arial;
+}
+
+th {
+    background-color: #002D62;
+    color: white;
+}
+
+
+
+button {
+    background-color: rgb(48, 48, 194);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=text] {
+    width: 93%;
+    padding: 12px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+input[type=email],
+input[type=number] {
+    width: 43.5%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin: 8px;
+}
+
+input[type=email] {
+    margin-left: 40px;
+}
+
+
+input[type=date] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px;
+    margin-left: 47px;
+    box-sizing: border-box;
+}
+
+input[type=button],
+input[type=submit],
+button {
+    background-color: #002D62;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover,
+button:hover {
+    background-color: rgb(0, 0, 180, 0.75);
+}
+
+.create-employ {
+    background-color: #002D62;
+    color: white;
+    font-family: Arial;
+    font-size: 28px;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+
+.header-employ {
+    background-color: #002D62;
+    color: white;
+    font-family: Arial;
+    font-size: 28px;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.edit-employ {
+    background-color: #002D62;
+    color: white;
+    font-family: Arial;
+    font-size: 28px;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+
+label {
+    margin-left: 10px;
 }
